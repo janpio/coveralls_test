@@ -1,0 +1,17 @@
+{
+  "RSpec": {
+    "coverage": {
+      "C:/Projects/Ruby/coveralls_test/spec/string_calculator_spec.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "C:/Projects/Ruby/coveralls_test/lib/string_calculator.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1534372087
+  }
+}
