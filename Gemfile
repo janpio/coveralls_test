@@ -5,5 +5,5 @@ source "https://rubygems.org"
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
-gem 'coveralls_reborn', require: false
 gem "rspec"
+gem 'codecov', :require => false, :group => :test

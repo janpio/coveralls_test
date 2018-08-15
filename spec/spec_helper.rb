@@ -99,5 +99,8 @@ RSpec.configure do |config|
 =end
 end
 
-require 'coveralls'
-Coveralls.wear!
+require 'simplecov'
+SimpleCov.start
+
+require 'codecov'
+SimpleCov.formatter = SimpleCov::Formatter::Codecov
